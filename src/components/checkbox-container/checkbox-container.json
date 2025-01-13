@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_checkbox_container_checkbox_containers",
+  "info": {
+    "displayName": "Checkbox_Container"
+  },
+  "options": {},
+  "attributes": {
+    "all": {
+      "type": "boolean"
+    },
+    "ICE_Gasoline": {
+      "type": "boolean"
+    },
+    "ICE_Diesel": {
+      "type": "boolean"
+    },
+    "Plugin_Hybrid_EV": {
+      "type": "boolean"
+    },
+    "Battery_EV": {
+      "type": "boolean"
+    },
+    "Fuel_Cell_EV": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_products_products",
+  "info": {
+    "displayName": "Products",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Product_name": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Videolink": {
+      "type": "string"
+    },
+    "Industry_Trend": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::filter-a.filter-a"
+    },
+    "Material_Of_Interest": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::filter-b.filter-b"
+    },
+    "products_language_id": {
+      "type": "biginteger"
+    },
+    "Text": {
+      "type": "blocks"
+    },
+    "Checkboxes": {
+      "displayName": "Checkbox_Container",
+      "type": "component",
+      "repeatable": false,
+      "component": "checkbox-container.checkbox-container"
+    }
+  }
+}

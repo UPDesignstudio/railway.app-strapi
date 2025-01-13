@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_industry_trends_industry_trends",
+  "info": {
+    "displayName": "Industry_Trends",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "E_Mobility": {
+      "type": "boolean"
+    },
+    "Sustainability": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "powertrain_collections",
+  "info": {
+    "singularName": "powertrain-collection",
+    "pluralName": "powertrain-collections",
+    "displayName": "Powertrain_Collection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Parts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "parts.parts",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "filter_as",
+  "info": {
+    "singularName": "filter-a",
+    "pluralName": "filter-as",
+    "displayName": "Filter_Industry_Trend",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_components",
+  "info": {
+    "displayName": "Components",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Parts": {
+      "displayName": "Parts",
+      "type": "component",
+      "repeatable": true,
+      "component": "parts.parts"
+    },
+    "components_language_id": {
+      "type": "biginteger"
+    }
+  }
+}

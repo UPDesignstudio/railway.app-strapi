@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "filter_bs",
+  "info": {
+    "singularName": "filter-b",
+    "pluralName": "filter-bs",
+    "displayName": "Filter_Material_Of_Interest",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

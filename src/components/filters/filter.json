@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_filters_filters",
+  "info": {
+    "displayName": "filter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Filtername": {
+      "type": "string"
+    }
+  }
+}

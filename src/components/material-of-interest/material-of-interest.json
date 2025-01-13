@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_material_of_interest_material_of_interests",
+  "info": {
+    "displayName": "Material_of_Interest",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Engeneering_Plastics": {
+      "type": "boolean"
+    },
+    "Polyutherane_Systems": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chassis_collections",
+  "info": {
+    "singularName": "chassis-collection",
+    "pluralName": "chassis-collections",
+    "displayName": "Chassis_Collection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Parts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "parts.parts",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

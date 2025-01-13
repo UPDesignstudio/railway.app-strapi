@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_filter_property_filter_properties",
+  "info": {
+    "displayName": "Filter_property",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Auswahl": {
+      "type": "boolean"
+    }
+  }
+}

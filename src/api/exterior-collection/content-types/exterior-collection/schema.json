@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exterior_collections",
+  "info": {
+    "singularName": "exterior-collection",
+    "pluralName": "exterior-collections",
+    "displayName": "Exterior_Collection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Parts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "parts.parts",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "components_language_id": {
+      "type": "biginteger",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
