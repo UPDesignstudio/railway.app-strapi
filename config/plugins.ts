@@ -18,17 +18,6 @@ export default ({ env }) => ({
                 delete: {},
             },
         },
-    },
-    'import-export-entries': {
-
-        enabled: true,
-    
-        config: {
-    
-          // See `Config` section.
-    
-        },
-    
-      },
+    }
     
 });
